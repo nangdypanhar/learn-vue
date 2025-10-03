@@ -140,3 +140,9 @@ onMounted(async () => {
     <button type="submit" @click="addNewTask">Add New Task</button>
   </form>
 </template>
+
+
+<!-- we use :
+
+- defineProps : when we want to accept props from other component.
+- computed : when we want it to run once and cache the result mostly use with reactive and ref state. It only change once the dependencies change. -->
